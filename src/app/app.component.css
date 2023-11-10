@@ -1,0 +1,48 @@
+header{
+    background-color: #FFA500;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+nav a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: black;
+    margin: 0 20px;
+}
+#menu{
+    position: fixed;
+    top: 0;
+    right: 0; /* Aligner à droite */
+    width: 500px;
+    background-color: rgba(255, 255, 255);
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    text-align: center;
+    /* Aligner le texte à droite */
+   
+}
+#x{
+   position: absolute;
+   right: 40px;
+   font-size: 20px;
+}
+
+#liste {
+    list-style: none; /* Supprime les puces de décoration */
+    margin-top: 20px;
+  }
+
+  #liste li {
+    list-style: none; /* Supprime les puces de décoration pour les éléments <li> spécifiques */
+  }
+
+  
