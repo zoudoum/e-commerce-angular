@@ -1,0 +1,46 @@
+.background-container {
+    background-image: url('../../assets/bg.avif');/* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
+    background-position: center; /* Centre l'image dans le conteneur */
+     /* Ajustez la hauteur selon vos besoins */
+    /* Ajoutez d'autres propriétés de style au besoin */
+    
+  }
+  #contenu{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    color: white;
+
+  }
+
+
+  #contenu2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 30px;
+
+  }
+  #fo{
+    margin-right: 30px;
+    margin: auto;
+  }
+  #im{
+    margin-bottom: 20px;
+  }
+  .text {
+    width: 200px; /* Définissez la largeur initiale de l'élément */
+    opacity: 1; /* Définissez l'opacité initiale à 1 pour qu'il soit visible */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Ajoutez une transition à la propriété transform et opacity */
+  
+    /* Styles supplémentaires */
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .text.hidden {
+    transform: translateX(-100%); /* Déplacez l'élément à gauche de sa largeur */
+    opacity: 0; /* Réduisez l'opacité à zéro pour le rendre invisible */
+  }

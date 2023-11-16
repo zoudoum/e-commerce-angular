@@ -1,0 +1,23 @@
+#contenu{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+    
+}
+#corp{
+   
+    margin: auto;
+}
+#h1p{
+color: #FFA500;
+text-decoration: underline;
+font-size: 20px;
+}
+#corp1{
+    width: 100%;
+    padding-top: 20px;
+ 
+}

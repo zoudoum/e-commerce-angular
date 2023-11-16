@@ -1,0 +1,57 @@
+<div id="contenu">
+    <div id="contenu1">
+        <div>
+        <button class="boutton" [ngClass]="{ 'classeConditionnelle': noir, 'boutton': !noir }" (click)="onClickBoutton1()" appFocus >Chocolat noir </button>
+        <button class="boutton" [ngClass]="{ 'classeConditionnelle': lait, 'boutton': !lait }" (click)="onClickBoutton2()" appFocus >Chocolat au lait </button>
+        <button class="boutton" [ngClass]="{ 'classeConditionnelle': ruby, 'boutton': !ruby  }" (click)="onClickBoutton3()" appFocus >Chocolat Ruby</button>
+        <button  class="boutton" (click)="onClickBoutton4()" [ngClass]="{ 'classeConditionnelle': menthe , 'boutton': !menthe }" appFocus >Chocolat à la menthe</button>
+    </div>
+     <div>
+        <button id="buttonsp" (click)="onClickBoutton5()" [ngClass]="{ 'classeConditionnelle': noix, 'boutton': !noix  }"  appFocus >Chocolat aux noix </button>
+        <button class="boutton" (click)="onClickBoutton6()" [ngClass]="{ 'classeConditionnelle': blond, 'boutton': !blond  }" appFocus >Chocolat blond</button>
+        <button class="boutton" (click)="onClickBoutton7()"  [ngClass]="{ 'classeConditionnelle': bio, 'boutton': !bio }" appFocus> Chocolat biologique ou équitable</button>
+    </div>
+    </div>
+    <div id="contenu2">
+        <div>
+        <img *ngIf="bio"  src="assets/bio/Kaoka-chocolat-bio-equitable-tablettes-2-1330x562.jpg" alt="Votre image" width="350px" height="200px">
+        </div>
+        <div>
+        <img *ngIf="blond" src="assets/blond/IMG_8310.jpg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="blond" src="assets/blond/raspberry_blonde_chocolate_cheesecake_squares_bs.png" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="blond" src="assets/blond/valrhona-dulcey-chocolatblond.jpg" alt="Votre image" width="350px" height="200px">
+        </div>
+        <div>
+        <img *ngIf="lait"  src="assets\lait/Fondant-au-Chocolat-Lait-Concentré-Sucré.jpg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="lait"  src="assets/lait/images.jpeg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="lait" src="assets/lait/mousse-au-chocolat-au-lait-1-11596.jpeg" alt="Votre image" width="350px" height="200px">
+        </div>
+        <div>
+        <img *ngIf="lait" src="assets/lait/mousse-chocolat-lait-de-coco-recette-dessert-creole-martinique.jpg" alt="Votre image" width="350px" height="200px">
+        </div>
+
+        <div>
+        <img *ngIf="menthe" src="assets/menthe/84939_w1024h576c1cx1629cy3005.webp" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="menthe" src="assets/menthe/Crème-chocolat-menthe-©Africa-Studio-shutterstock.webp" alt="Votre image" width="350px" height="200px">
+        </div>
+        <div>
+        <img *ngIf="noir" src="assets/noir/images (1).jpeg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="noir" src="assets/noir/téléchargement.jpeg" alt="Votre image" width="350px" height="200px">
+        </div>
+        <div>
+        <img *ngIf="noix" src="assets/noix/Cake chocolat-noix1.jpg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="noix" src="assets/noix/Cookies_tout_chocolat_noix_pecan_recette.jpg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="noix" src="assets/noix/eclat-de-chocolat-aux-fruits-sechees-et-noix.jpeg" alt="Votre image" width="350px" height="200px">
+       </div>
+        <div>
+        <img *ngIf="noix" src="assets/noix/Gateaux-au-chocolat-et-noix-de-coco.jpeg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="noix" src="assets/noix/sablés-aux-noix-et-chocolat-11-sur-17.webp" alt="Votre image" width="350px" height="200px">
+    </div>
+    <div>
+        <img *ngIf="ruby" src="assets/ruby/20200520_212924-810x810.jpg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="ruby" src="assets/ruby/b55c1768c7728bbec2caa20039975070.jpg" alt="Votre image" width="350px" height="200px">
+        <img *ngIf="ruby"  src="assets/ruby/ruby-chocolate-blondies-5219239-hero-03-71d6a0815395451fafa0621c1114b8f4.jpg" alt="Votre image" width="350px" height="200px">
+        </div>
+
+    </div>
+</div>

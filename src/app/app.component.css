@@ -15,6 +15,7 @@ nav a {
     text-decoration: none; /* Supprime le soulignement des liens */
     color: black;
     margin: 0 20px;
+    text-decoration: none;
 }
 #menu{
     position: fixed;
@@ -33,16 +34,24 @@ nav a {
 #x{
    position: absolute;
    right: 40px;
-   font-size: 20px;
+   font-size: 40px;
 }
 
 #liste {
+    display: flex;
+    justify-content: center;
     list-style: none; /* Supprime les puces de décoration */
     margin-top: 20px;
+    flex-direction: column;
+    
   }
 
   #liste li {
+    text-decoration: none;
     list-style: none; /* Supprime les puces de décoration pour les éléments <li> spécifiques */
+  }
+  ul{
+    text-decoration: none;
   }
 
   

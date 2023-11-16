@@ -1,0 +1,36 @@
+#contenu{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    cursor: pointer;
+}
+.pinfo{
+    color: #FFA500;
+}
+
+#contp{
+    width: 600px;
+}
+span{
+    font-size: 20px;
+}
+#divimg
+{
+    background-color: rgba(235, 182, 84, 0.3);
+    width: 100%;
+    height: 190px;
+    position: relative;
+    bottom: 191px;
+    
+    
+}
+#divinf{
+    width: 100%;
+    height: 190px;
+   
+   
+}

@@ -1,0 +1,46 @@
+#divimg
+{
+    background-color: rgba(39, 38, 36, 0.7);
+    
+    height: 350px;
+    position: relative;
+    bottom: 250px;
+    
+    
+}
+#divinf{
+  
+    height: 250px;
+   
+   
+}
+#contenu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+  
+   
+}
+
+#contenu h3{
+    margin-top: 30px;
+  
+    color: #FFA500;
+    opacity: 1;
+    
+    
+}
+
+#contenu p{
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 1;
+}
+
+
+#contenu button{
+    background-color: rgb(137, 137, 4);
+    border-radius: 10px;
+    height: 50px;
+}

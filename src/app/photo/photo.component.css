@@ -1,0 +1,41 @@
+#contenu{
+    display: flex;
+    justify-content: space-between;
+}
+#CONTENUP{
+    width: 55%;
+}
+#contenu1
+{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: end;
+}
+#contenu2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contenu3{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 100px;
+}
+img{
+    border-radius: 30px;
+}
+#contenuimg{
+    width: 700px;
+}
+#CONTENUP h3 {
+    color: #FFA500;
+    text-decoration: underline;
+}
+
+#CONTENUP p {
+    text-align: justify;
+}

@@ -1,0 +1,33 @@
+<div id="contenu">
+    <h3>
+        Galerie
+    </h3>
+    <h5 id="maSection">
+        VOIR LA GALERIE  
+    </h5>
+    <div id="contenu1">
+        <img  id="imginf" src="assets/3.jpg" alt="Votre image"  width="250px" height="200px">
+        <img  id="imginf" src="assets/5.jpg" alt="Votre image"  width="250px" height="200px">
+        <img  id="imginf" *ngIf="etat1" src="assets/4.jpeg" alt="Votre image"  width="250px" height="200px">
+        <img  id="imginf" *ngIf="etat1" src="assets/2.webp" alt="Votre image"  width="250px" height="200px">
+      
+    </div>
+    <div id="contenu2">
+        <img  id="imginf" *ngIf="etat1" src="assets/bback.webp" alt="Votre image"  width="250px" height="200px">
+        <img  id="imginf" *ngIf="etat1" src="assets/noir/images (1).jpeg" alt="Votre image"  width="250px" height="200px">
+        <img  id="imginf"  *ngIf="etat1" src="assets/noix/eclat-de-chocolat-aux-fruits-sechees-et-noix.jpeg" alt="Votre image"  width="250px" height="200px">
+        <img  id="imginf"  *ngIf="etat1" src="assets/3.jpg" alt="Votre image"  width="250px" height="200px">
+      
+    </div>
+
+    <div id="contenu3" *ngIf="!clicksvg" ><svg (click)="onClickSvg()"  (mouseenter)="onCardFocusHandler()" (mouseleave)="onCardMouseLeave()"  [ngStyle]="{
+        background:getEtat()}" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+      </svg></div>
+
+      <div id="contenu4" *ngIf="clicksvg"><svg (click)="navigateToSection()" (click)="onClickSvg1()" [ngStyle]="{ 'height':heightdiv}" (mouseenter)="onCardFocusHandler()" (mouseleave)="onCardMouseLeave()"  [ngStyle]="{
+        background:getEtat()}" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+      </svg></div>
+
+</div>

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,6 +11,8 @@ import { BackgoundimagesComponent } from './backgoundimages/backgoundimages.comp
 import { GalerieComponent } from './galerie/galerie.component';
 import { MenuComponent } from './menu/menu.component';
 import { FocusDirective } from './focus.directive';
+import { FooterComponent } from './footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,12 @@ import { FocusDirective } from './focus.directive';
     BackgoundimagesComponent,
     GalerieComponent,
     MenuComponent,
-    FocusDirective
+    FocusDirective,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, ReactiveFormsModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
